@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "E爬树的甲壳虫", "E爬
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AB", "AB\AB.vcxproj", "{F4A8B29F-480D-4C15-B873-DD377393F079}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "F青蛙过河", "F青蛙过河\F青蛙过河.vcxproj", "{17211C27-A0D0-4468-8196-05CAC169199A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{F4A8B29F-480D-4C15-B873-DD377393F079}.Release|x64.Build.0 = Release|x64
 		{F4A8B29F-480D-4C15-B873-DD377393F079}.Release|x86.ActiveCfg = Release|Win32
 		{F4A8B29F-480D-4C15-B873-DD377393F079}.Release|x86.Build.0 = Release|Win32
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Debug|x64.ActiveCfg = Debug|x64
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Debug|x64.Build.0 = Debug|x64
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Debug|x86.ActiveCfg = Debug|Win32
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Debug|x86.Build.0 = Debug|Win32
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Release|x64.ActiveCfg = Release|x64
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Release|x64.Build.0 = Release|x64
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Release|x86.ActiveCfg = Release|Win32
+		{17211C27-A0D0-4468-8196-05CAC169199A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
