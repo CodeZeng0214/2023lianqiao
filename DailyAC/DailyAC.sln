@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DailyAC", "DailyAC\DailyAC.vcxproj", "{8BAF39B6-2A84-4CB6-8386-BD5BA28615E6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.15", "3.15\3.15.vcxproj", "{297F964C-18A9-4D6E-B343-BD9917FE3E7B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.15截断数组", "3.15\3.15.vcxproj", "{297F964C-18A9-4D6E-B343-BD9917FE3E7B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.16差分", "3.16\3.16.vcxproj", "{862A1E4B-9754-452E-984D-0AABE5BC1910}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.18字符串删减", "3.18\3.18.vcxproj", "{C2CE995E-298C-4527-940C-6F73C300121F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.18砖块", "3.18砖块\3.18砖块.vcxproj", "{A846EEC2-6DC2-47D1-9B1E-D194E67094CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.19树的遍历", "3.19树的遍历\3.19树的遍历.vcxproj", "{1B301560-ABF7-4C64-94FA-710FBC4FB562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,14 @@ Global
 		{A846EEC2-6DC2-47D1-9B1E-D194E67094CC}.Release|x64.Build.0 = Release|x64
 		{A846EEC2-6DC2-47D1-9B1E-D194E67094CC}.Release|x86.ActiveCfg = Release|Win32
 		{A846EEC2-6DC2-47D1-9B1E-D194E67094CC}.Release|x86.Build.0 = Release|Win32
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Debug|x64.ActiveCfg = Debug|x64
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Debug|x64.Build.0 = Debug|x64
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Debug|x86.ActiveCfg = Debug|Win32
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Debug|x86.Build.0 = Debug|Win32
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Release|x64.ActiveCfg = Release|x64
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Release|x64.Build.0 = Release|x64
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Release|x86.ActiveCfg = Release|Win32
+		{1B301560-ABF7-4C64-94FA-710FBC4FB562}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
