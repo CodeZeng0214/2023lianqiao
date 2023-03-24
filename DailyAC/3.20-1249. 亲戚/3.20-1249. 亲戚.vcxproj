@@ -24,6 +24,7 @@
     <ProjectGuid>{fba7ded8-7292-424c-9c73-50c158d63fb2}</ProjectGuid>
     <RootNamespace>My3201249亲戚</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>3.20-1249. 亲戚(并查集)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
