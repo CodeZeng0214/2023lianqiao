@@ -25,7 +25,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.21-299. 裁剪序列", "3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.22-141. 周期（KMP）", "3.22-141. 周期\3.22-141. 周期.vcxproj", "{5605690F-5A84-43E7-B4E3-2F664B72C5E6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.24-3485. 最大异或和", "3.24-3485. 最大异或和\3.24-3485. 最大异或和.vcxproj", "{0592DE1F-0F88-4C66-A143-01806983842F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.24-3485. 最大异或和(trie)", "3.24-3485. 最大异或和\3.24-3485. 最大异或和.vcxproj", "{0592DE1F-0F88-4C66-A143-01806983842F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.25-1562. 微博转发(数组模拟邻接表，BFS)", "3.25-1562. 微博转发\3.25-1562. 微博转发.vcxproj", "{934778EE-24FF-461A-9C05-128C24AF0DA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -131,6 +133,14 @@ Global
 		{0592DE1F-0F88-4C66-A143-01806983842F}.Release|x64.Build.0 = Release|x64
 		{0592DE1F-0F88-4C66-A143-01806983842F}.Release|x86.ActiveCfg = Release|Win32
 		{0592DE1F-0F88-4C66-A143-01806983842F}.Release|x86.Build.0 = Release|Win32
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Debug|x64.ActiveCfg = Debug|x64
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Debug|x64.Build.0 = Debug|x64
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Debug|x86.Build.0 = Debug|Win32
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Release|x64.ActiveCfg = Release|x64
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Release|x64.Build.0 = Release|x64
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Release|x86.ActiveCfg = Release|Win32
+		{934778EE-24FF-461A-9C05-128C24AF0DA1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
