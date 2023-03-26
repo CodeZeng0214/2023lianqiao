@@ -29,8 +29,8 @@ int Bfs(int start)
 		while (sz--)
 		{
 			int t = q.front();
-			q.pop();//出队
-			for (int j = h[t]; j != -1; j = ne[j])
+			q.pop();//让上一层的结点出队
+			for (int j = h[t]; j != -1; j = ne[j])//找到所有子节点加入队列
 			{
 				int x = e[j];
 				if (!st[x])
