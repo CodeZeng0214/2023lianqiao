@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.25-1562. 微博转发(数
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.26-3502. 不同路径数(Hash,DFS)", "3.26-3502. 不同路径数\3.26-3502. 不同路径数.vcxproj", "{EBAFCBB4-1388-452D-80E3-1D79B9B1A791}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.27-3696. 构造有向无环图(拓扑排序)", "3.27-3696. 构造有向无环图(拓扑排序)\3.27-3696. 构造有向无环图(拓扑排序).vcxproj", "{8390B447-73CB-4C44-8776-E35881FB503D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{EBAFCBB4-1388-452D-80E3-1D79B9B1A791}.Release|x64.Build.0 = Release|x64
 		{EBAFCBB4-1388-452D-80E3-1D79B9B1A791}.Release|x86.ActiveCfg = Release|Win32
 		{EBAFCBB4-1388-452D-80E3-1D79B9B1A791}.Release|x86.Build.0 = Release|Win32
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Debug|x64.ActiveCfg = Debug|x64
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Debug|x64.Build.0 = Debug|x64
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Debug|x86.ActiveCfg = Debug|Win32
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Debug|x86.Build.0 = Debug|Win32
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Release|x64.ActiveCfg = Release|x64
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Release|x64.Build.0 = Release|x64
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Release|x86.ActiveCfg = Release|Win32
+		{8390B447-73CB-4C44-8776-E35881FB503D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
