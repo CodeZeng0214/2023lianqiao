@@ -4,10 +4,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int N = 3100010;
+const int n = 3100010;
 int n, m;
-int tr[N][2], cnt[N], idx;//定义trie的数据结构，tr数组的N代表，2代表该位选0或者选1，每个数组的值代表一个唯一的数字，cnt就是数字出现的次数
-int s[N];//前缀异或和数组
+int tr[n][2], cnt[n], idx;//定义trie的数据结构，tr数组的N代表，2代表该位选0或者选1，每个数组的值代表一个唯一的数字，cnt就是数字出现的次数
+int s[n];//前缀异或和数组
 
 void Insert(int x, int v)//支持删除和增加的trie
 {

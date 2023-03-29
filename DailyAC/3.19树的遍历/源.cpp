@@ -1,10 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-const int N = 35;
+const int n = 35;
 
-int a[N], b[N], p[N];
-vector<int> level[N];
+int a[n], b[n], p[n];
+vector<int> level[n];
 
 void Build(int al, int ar, int bl, int br, int d)
 {

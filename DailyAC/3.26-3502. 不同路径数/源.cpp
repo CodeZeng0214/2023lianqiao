@@ -3,8 +3,8 @@
 using namespace std;
 
 
-const int N = 6, M = 6;
-int g[N][M];
+const int n = 6, m = 6;
+int g[n][m];
 int n, m, k;
 unordered_set<int> s;//利用哈希表可以得出不重复的数的个数
 int dx[4]{ -1,0,1,0 }, dy[4]{ 0,1,0,-1 };//依次为上，右，下，左

@@ -2,14 +2,14 @@
 #include<unordered_set>
 using namespace std;
 
-const int N = 103;
-int h[N];
+const int n = 103;
+int h[n];
 
 int find(int x)
 {
-	int t = x % N;
+	int t = x % n;
 	while (h[t] != -1 && h[t] != x)
-		if (++t == N)
+		if (++t == n)
 			t = 0;
 	return t;
 }//ÊÖĞ´¹şÏ£±í

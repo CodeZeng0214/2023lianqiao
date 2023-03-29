@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int N;
+int n;
 char str[1000010];
 int ne[1000010];
 
@@ -9,7 +9,7 @@ int ne[1000010];
 void GetNext(char s[])
 {
 	ne[1] = 0;
-	for (int i = 2, j = 0; i <= N; i++) 
+	for (int i = 2, j = 0; i <= n; i++) 
 	{
 		while (j && s[i] != s[j + 1]) j = ne[j];
 		if (s[i] == s[j + 1]) j++;
@@ -36,13 +36,13 @@ int main()
 	int n = 1;
 	while (1)
 	{
-		cin >> N;
-		if (!N) break;
+		cin >> n;
+		if (!n) break;
 		cin >> str + 1;//可以将字符串从数组下标一开始录入
 		cout << str;
 		GetNext(str);//KMP算法的next数组
 		cout << "Test case #" << n++ << endl;
-		for (int i = 1; i <= N; i++)
+		for (int i = 1; i <= n; i++)
 		{
 			int t = i - ne[i];
 			if (i % t == 0 && i / t > 1)
