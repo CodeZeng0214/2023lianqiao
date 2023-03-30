@@ -35,9 +35,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.27-3696. 构造有向无�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.28-1488. 最短距离(Dijkstra)", "3.28-1488. 最短距离\3.28-1488. 最短距离.vcxproj", "{E5E3128F-B660-4095-9A9C-E8712FBDB83E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.29-3305. 作物杂交", "3.29-3305. 作物杂交\3.29-3305. 作物杂交.vcxproj", "{2E7FA0DE-6CE1-40BF-8A56-CFDA645CC97E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.29-3305. 作物杂交(DP,spfa)", "3.29-3305. 作物杂交\3.29-3305. 作物杂交.vcxproj", "{2E7FA0DE-6CE1-40BF-8A56-CFDA645CC97E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.29-3728. 城市通电", "3.29-3728. 城市通电\3.29-3728. 城市通电.vcxproj", "{0EFECA37-676A-4DB2-8225-CDB7A547E953}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.30-4074. 铁路与公路(Floyd)", "3.29-3728. 城市通电\3.29-3728. 城市通电.vcxproj", "{0EFECA37-676A-4DB2-8225-CDB7A547E953}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.30-3728. 城市通电(prim)", "3.30-4074. 铁路与公路\3.30-4074. 铁路与公路.vcxproj", "{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.30-3555. 二叉树(最近公共祖先，爬山法)", "3.30-3555. 二叉树(最近公共祖先，爬山法)\3.30-3555. 二叉树(最近公共祖先，爬山法).vcxproj", "{0C407118-56D6-4035-895B-C8F4E2FF63C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +195,22 @@ Global
 		{0EFECA37-676A-4DB2-8225-CDB7A547E953}.Release|x64.Build.0 = Release|x64
 		{0EFECA37-676A-4DB2-8225-CDB7A547E953}.Release|x86.ActiveCfg = Release|Win32
 		{0EFECA37-676A-4DB2-8225-CDB7A547E953}.Release|x86.Build.0 = Release|Win32
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Debug|x64.ActiveCfg = Debug|x64
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Debug|x64.Build.0 = Debug|x64
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Debug|x86.Build.0 = Debug|Win32
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Release|x64.ActiveCfg = Release|x64
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Release|x64.Build.0 = Release|x64
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Release|x86.ActiveCfg = Release|Win32
+		{1FBCB63C-13D4-48C9-BA88-6C71FA0FB65B}.Release|x86.Build.0 = Release|Win32
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Debug|x64.ActiveCfg = Debug|x64
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Debug|x64.Build.0 = Debug|x64
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Debug|x86.ActiveCfg = Debug|Win32
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Debug|x86.Build.0 = Debug|Win32
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Release|x64.ActiveCfg = Release|x64
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Release|x64.Build.0 = Release|x64
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Release|x86.ActiveCfg = Release|Win32
+		{0C407118-56D6-4035-895B-C8F4E2FF63C7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

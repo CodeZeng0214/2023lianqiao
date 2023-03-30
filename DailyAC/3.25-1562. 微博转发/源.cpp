@@ -3,10 +3,10 @@ using namespace std;
 
 int n, l;
 
-const int n = 1010, m = 100010;//N代表点，M代表边
+const int N = 1010, M = 100010;//N代表点，M代表边
 
-int h[n], e[m], ne[m], idx;//h数组存储最新的，结点的下一条边编号，e存储边的终点，
-bool st[n];						//ne代表第idx条边的下一条边的idx。如果当前结点没有出边即为-1
+int h[N], e[M], ne[M], idx;//h数组存储最新的，结点的下一条边编号，e存储边的终点，
+bool st[N];						//ne代表第idx条边的下一条边的idx。如果当前结点没有出边即为-1
 
 void Add(int a, int b)//a为起点，b为终点
 {
