@@ -8,7 +8,7 @@ const int N = 2010;
 
 PII p[N];//城市的坐标属性
 
-int wk[N], wc[N];//wk为架设电线每单位费用，wc为架设
+int wk[N], wc[N];//wk为架设电线每单位费用，wc为建立发电站
 int fa[N];//记录每个点与集合相连后，该点连接的是集合中的哪个点
 
 int n;

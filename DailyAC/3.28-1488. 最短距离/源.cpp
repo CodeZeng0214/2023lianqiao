@@ -6,10 +6,10 @@ int n, m;
 
 typedef pair<int, int> PII;
 
-const int n = 100010, m = 200020;
-int h[n], w[m], e[m], ne[m], idx;
-int dist[n];
-bool st[n];
+const int N = 100010, M = 200020;
+int h[N], w[M], e[M], ne[M], idx;
+int dist[N];
+bool st[N];
 
 void Add(int a, int b, int c)
 {

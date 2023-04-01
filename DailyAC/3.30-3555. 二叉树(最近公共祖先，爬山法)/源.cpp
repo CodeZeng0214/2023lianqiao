@@ -21,6 +21,8 @@ int GetLca(int a, int b)//爬山法求公共祖先
 	return a;
 }
 
+
+
 int main()
 {
 	int T;
@@ -47,7 +49,9 @@ int main()
 		{
 			int a, b;
 			cin >> a >> b;
-			cout << dist[a] + dist[b] - 2 * dist[GetLca(a, b)] << endl;
+			cout << dist[a] + dist[b] - 
+				2 * dist[GetLca(a, b)] 
+				<< endl;
 		}
 	}
 	return 0;

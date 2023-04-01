@@ -2,16 +2,16 @@
 using namespace std;
 
 int n, m;
-const int n = 200010, m = n;
-int h[n], e[m], ne[m], idx;
-int d[n];//记录入度
-int tp[n];//记录拓扑排序的输出
+const int N = 200010, M = N;
+int h[N], e[M], ne[M], idx;
+int d[N];//记录入度
+int tp[N];//记录拓扑排序的输出
 
 struct Edge
 {
 	int a, b;
-}edge[m];
-int pos[n];//记录点在拓扑排序输出序列的位置
+}edge[M];
+int pos[N];//记录点在拓扑排序输出序列的位置
 
 void Add(int a, int b)//添加一条边a->b
 {
