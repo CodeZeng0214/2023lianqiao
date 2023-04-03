@@ -51,7 +51,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.31-4309. 消灭老鼠(公
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3.31-3625. 幂次方(快速幂)", "3.31-3625. 幂次方\3.31-3625. 幂次方.vcxproj", "{C0736B53-020D-478B-9734-05A6A4C563BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.1-4496. 吃水果", "4.1-4496. 吃水果\4.1-4496. 吃水果.vcxproj", "{F2E1E82E-5867-49FE-ABFA-C7B05FA7B53D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.1-4496. 吃水果(组合数)", "4.1-4496. 吃水果\4.1-4496. 吃水果.vcxproj", "{F2E1E82E-5867-49FE-ABFA-C7B05FA7B53D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3-4005. 取石子游戏(博弈论NIM)", "4.3-4005. 取石子游戏\4.3-4005. 取石子游戏.vcxproj", "{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.3-2. 01背包问题", "4.3-2. 01背包问题\4.3-2. 01背包问题.vcxproj", "{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,22 @@ Global
 		{F2E1E82E-5867-49FE-ABFA-C7B05FA7B53D}.Release|x64.Build.0 = Release|x64
 		{F2E1E82E-5867-49FE-ABFA-C7B05FA7B53D}.Release|x86.ActiveCfg = Release|Win32
 		{F2E1E82E-5867-49FE-ABFA-C7B05FA7B53D}.Release|x86.Build.0 = Release|Win32
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Debug|x64.ActiveCfg = Debug|x64
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Debug|x64.Build.0 = Debug|x64
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Debug|x86.Build.0 = Debug|Win32
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Release|x64.ActiveCfg = Release|x64
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Release|x64.Build.0 = Release|x64
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Release|x86.ActiveCfg = Release|Win32
+		{EBAE3BBA-FF2F-438B-8D9E-DD18390456CA}.Release|x86.Build.0 = Release|Win32
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Debug|x64.ActiveCfg = Debug|x64
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Debug|x64.Build.0 = Debug|x64
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Debug|x86.ActiveCfg = Debug|Win32
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Debug|x86.Build.0 = Debug|Win32
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Release|x64.ActiveCfg = Release|x64
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Release|x64.Build.0 = Release|x64
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Release|x86.ActiveCfg = Release|Win32
+		{2D927D3E-0B69-4305-AC1C-B8B711F4CEAF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
